@@ -1,15 +1,12 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the[Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 
@@ -23,30 +20,8 @@ This is my first Frontend Mentor project. A simple card component which contain 
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-qrcode-using-html-and-css-X6eD52VOy](https://www.frontendmentor.io/solutions/responsive-qrcode-using-html-and-css-X6eD52VOy)
-- Live Site URL: [https://siddhinandaniya.github.io/QR-Code/](https://siddhinandaniya.github.io/QR-Code/)
-
-## My process
-
-- First developed html body structure
-- Started building with mobile first approach
-- Used Sass to create css file
-- Used flexbox for alignment
-
-
-### Built with
-
-- Semantic HTML5 markup
-- Sass Preprocessor
-- CSS
-- Flexbox
-- Mobile-first workflow
-
-
-### Continued development
-
-During this project i found flexbox really useful. i was looking for a way to position the card at the center of webpage. And finally flexbox seemed to be the best approach.
-
+- Solution URL: [https://www.frontendmentor.io/solutions/interactiveratingcomponent-using-javascript-css-and-html5-Xx7FYOe4lQ](https://www.frontendmentor.io/solutions/interactiveratingcomponent-using-javascript-css-and-html5-Xx7FYOe4lQ)
+- Live Site URL: [https://siddhinandaniya.github.io/Interactive-rating-component/](https://siddhinandaniya.github.io/Interactive-rating-component/)
 
 ## Author
 
