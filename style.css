@@ -14,7 +14,7 @@ body {
 
 .box {
   font-family: "Overpass", sans-serif;
-  width: 21%;
+  width: 22%;
   height: auto;
   color: white;
   background-color: hsl(213, 19%, 18%);
@@ -69,7 +69,7 @@ p {
   font-size: 0.8rem;
   color: hsl(217, 12%, 63%);
   line-height: 1.3rem;
-  text-align: center;
+  text-align: left;
 }
 
 /* part-2 of box-1 */
