@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.box {
+  font-family: "Overpass", sans-serif;
+  width: 21%;
+  height: auto;
+  color: white;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 1rem;
+}
+button ::first-child {
+  margin-left: 3rem;
+}
+
+.btn {
+  margin: 0.5rem !important;
+  border-radius: 100%;
+  width: 2.9rem;
+  height: 2.9rem;
+  border: none;
+  background-color: hsl(217, 13%, 28%);
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.selectedbtn {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.submit {
+  cursor: pointer;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(25, 97%, 53%);
+  width: 92%;
+  display: block;
+  border-radius: 30px;
+  border: none;
+  padding: 0.9rem;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.2rem;
+}
+
+.margin {
+  margin: 1rem;
+}
+.margin-p {
+  margin: 0 1rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+/* part-2 of box-1 */
+.part-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.roundbtn {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 1500px) {
+  .box {
+    width: 22%;
+  }
+  body {
+    /* background-color: wheat; */
+  }
+  .btn {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+/* design for box-2 after clicking submit button */
+.box-2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.selected {
+  background-color: hsl(217, 13%, 28%);
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  font-size: 0.7rem;
+  color: hsl(25, 97%, 53%);
+}
+.thank {
+  font-size: 1.3rem;
+}
+
+/* responsive for big scree */
+@media only screen and (max-width: 1340px) {
+  .box {
+    width: 24%;
+  }
+  body {
+    /* background-color: yellow; */
+  }
+  .btn {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .box {
+    width: 27%;
+  }
+  body {
+    /* background-color: purple; */
+  }
+  .btn {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+/* responsive for ipad */
+@media only screen and (max-width: 1096px) {
+  .box {
+    width: 37%;
+  }
+  body {
+    /* background-color: blue; */
+  }
+  .btn {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+/* responsive  for mobile scree*/
+
+@media only screen and (max-width: 576px) {
+  .box {
+    width: 80%;
+  }
+  body {
+    /* background-color: red; */
+  }
+  .btn {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+.attribution {
+  margin-top: 2rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.hidden {
+  display: none;
+}
