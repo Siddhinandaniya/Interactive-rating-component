@@ -40,46 +40,97 @@
     <!-- Rating state start -->
 
     <!-- <main> -->
-      <main class="box-1 box">
-        <!-- part 1 of box-1 -->
-        <div class="part-1">
+    <main class="box-1 box">
+      <!-- part 1 of box-1 -->
+      <div class="part-1">
+        <div class="bg-color">
           <img class="margin" src="images/icon-star.svg" alt="" />
-          <h2 class="margin">How did we do?</h2>
-          <p class="margin text-left">
-            Please let us know how we did with your support request. All
-            feedback is appreciated to help us improve our offering!
-          </p>
         </div>
-
-        <!-- part 2 of box-1 -->
- <div class="part-2">
-<div class="roundbtn">
-        <button class="btn margin">1</button>
-        <button class="btn margin">2</button>
-        <button class="btn margin">3</button>
-        <button class="btn margin">4</button>
-        <button class="btn margin">5</button>
+        <h2 class="margin">How did we do?</h2>
+        <p class="margin text-left">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
       </div>
-        <button class="submit margin" type="submit">SUBMIT</button>
+
+      <!-- part 2 of box-1 -->
+      <div class="part-2">
+        <div class="roundbtn">
+          <div class="feedback__rating-button">
+            <input
+              type="radio"
+              name="rate"
+              value="1"
+              id="rate-one"
+              class="radiobtn margin btn"
+              autocomplete="off"
+            />
+            <label class="radioValue" for="rate-one">1</label>
+          </div>
+          <div class="feedback__rating-button">
+            <input
+              type="radio"
+              name="rate"
+              value="2"
+              id="rate-two"
+              class="radiobtn margin btn"
+              autocomplete="off"
+            />
+            <label class="radioValue" for="rate-two">2</label>
+          </div>
+          <div class="feedback__rating-button">
+            <input
+              type="radio"
+              name="rate"
+              value="3"
+              id="rate-three"
+              class="radiobtn margin btn"
+              autocomplete="off"
+            />
+            <label class="radioValue" for="rate-three">3</label>
+          </div>
+          <div class="feedback__rating-button">
+            <input
+              type="radio"
+              name="rate"
+              value="4"
+              id="rate-four"
+              class="radiobtn margin btn"
+              autocomplete="off"
+            />
+            <label class="radioValue" for="rate-four">4</label>
+          </div>
+          <div class="feedback__rating-button">
+            <input
+              type="radio"
+              name="rate"
+              value="5"
+              id="rate-five"
+              class="radiobtn margin btn"
+              autocomplete="off"
+            />
+            <label class="radioValue" for="rate-five">5</label>
+          </div>
+        </div>
+      </div>
+      <button class="submit margin" type="submit">SUBMIT</button>
     </main>
-   
 
     <!-- Rating state end -->
 
-<div class="box-2 box hidden ">
-  <img class="margin" src="images/illustration-thank-you.svg" alt="">
-  <div class="selected margin">You selected <span class="rating">  </span>out of 5 </div>
-    
-  <div class=" thank margin">Thank you!</div>
-    
-  <p class=" appreciate margin-p text-center">We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch!</p>
-</div>
+    <div class="box-2 box hidden">
+      <img class="margin" src="images/illustration-thank-you.svg" alt="" />
+      <div class="selected margin">
+        You selected <span class="rating"> </span>out of 5
+      </div>
 
+      <div class="thank margin">Thank you!</div>
 
-
-
-
+      <p class="appreciate margin-p text-center">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </div>
 
     <!-- Thank you state start -->
 
@@ -92,9 +143,17 @@
 
     <div class="attribution">
       Challenge by
-      <a target="_blank" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        target="_blank"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a target="_blank" href="https://www.frontendmentor.io/profile/Siddhinandaniya">Siddhi Nandaniya</a>.
+      >. Coded by
+      <a
+        target="_blank"
+        href="https://www.frontendmentor.io/profile/Siddhinandaniya"
+        >Siddhi Nandaniya</a
+      >.
     </div>
     <script src="index.js"></script>
   </body>

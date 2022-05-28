@@ -11,10 +11,19 @@ body {
   flex-direction: column;
   position: relative;
 }
+/* -------------------------------------- */
+
+.box-2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .box {
-  font-family: "Overpass", sans-serif;
-  width: 22%;
+  font-family: 'Overpass', sans-serif;
+  width: 20rem;
   height: auto;
   color: white;
   background-color: hsl(213, 19%, 18%);
@@ -31,22 +40,58 @@ button ::first-child {
   width: 2.9rem;
   height: 2.9rem;
   border: none;
-  background-color: hsl(217, 13%, 28%);
-  color: hsl(217, 12%, 63%);
+}
+.bg-color {
+  background-color: hsl(213, 21%, 22%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  margin: 0.8rem 1rem 1.5rem;
+}
+
+.feedback__rating-button {
+  position: relative;
+}
+.radiobtn {
+  appearance: none;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: hsl(213, 21%, 22%);
   cursor: pointer;
 }
-.btn:hover {
-  background-color: hsl(25, 97%, 53%);
-  color: hsl(0, 0%, 100%);
+.radioValue {
+  cursor: pointer;
+  position: absolute;
+  top: 32%;
+  left: 1.5rem;
+  font-size: 1rem;
+  color: hsl(217, 12%, 63%);
+  display: inline;
 }
-.selectedbtn {
-  background-color: hsl(217, 12%, 63%);
+
+.radiobtn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.radiobtn:hover + label,
+.radiobtn:checked + label {
   color: white;
 }
+.radiobtn:checked {
+  background-color: hsl(217, 12%, 63%);
+}
+.feedback__values {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+/* -------------------------------------------------------- */
 
 .submit {
   cursor: pointer;
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   background-color: hsl(25, 97%, 53%);
   width: 92%;
   display: block;
@@ -90,27 +135,8 @@ p {
   flex-wrap: nowrap;
 }
 
-@media only screen and (max-width: 1500px) {
-  .box {
-    width: 22%;
-  }
-  body {
-    /* background-color: wheat; */
-  }
-  .btn {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-}
-
 /* design for box-2 after clicking submit button */
-.box-2 {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+
 .selected {
   background-color: hsl(217, 13%, 28%);
   padding: 0.5rem 1rem;
@@ -122,61 +148,6 @@ p {
   font-size: 1.3rem;
 }
 
-/* responsive for big scree */
-@media only screen and (max-width: 1340px) {
-  .box {
-    width: 24%;
-  }
-  body {
-    /* background-color: yellow; */
-  }
-  .btn {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .box {
-    width: 27%;
-  }
-  body {
-    /* background-color: purple; */
-  }
-  .btn {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-}
-
-/* responsive for ipad */
-@media only screen and (max-width: 1096px) {
-  .box {
-    width: 37%;
-  }
-  body {
-    /* background-color: blue; */
-  }
-  .btn {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-}
-/* responsive  for mobile scree*/
-
-@media only screen and (max-width: 576px) {
-  .box {
-    width: 80%;
-  }
-  body {
-    /* background-color: red; */
-  }
-  .btn {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-}
-
 .attribution {
   margin-top: 2rem;
   color: white;
@@ -185,4 +156,20 @@ p {
 
 .hidden {
   display: none;
+}
+
+/* media queries */
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+  .box {
+    width: 18rem;
+  }
+  .radioValue {
+    cursor: pointer;
+    position: absolute;
+    top: 32%;
+    left: 1.5rem;
+    font-size: 0.9rem;
+    color: hsl(217, 12%, 63%);
+    display: inline;
+  }
 }
