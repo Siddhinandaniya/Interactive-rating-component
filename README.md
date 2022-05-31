@@ -21,9 +21,10 @@ This is my first Frontend Mentor project. A simple card component which contain 
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactiveratingcomponent-using-javascript-css-and-html5-Xx7FYOe4lQ](https://www.frontendmentor.io/solutions/interactiveratingcomponent-using-javascript-css-and-html5-Xx7FYOe4lQ)
-- Live Site URL: [https://siddhinandaniya.github.io/Interactive-rating-component/](https://siddhinandaniya.github.io/Interactive-rating-component/)
+- Live Site URL: https://Siddhie.github.io/Interactive-rating-component/
 
 ## Author
 
-- Linkedin - [Siddhi Nandaniya](https://www.linkedin.com/in/siddhi-nandaniya/)
-- Frontend Mentor - [@siddhinandaniya](https://www.frontendmentor.io/profile/Siddhinandaniya)
+- Linkedin - [Siddhi Nandaniya](https://www.linkedin.com/in/siddhie/)
+- Frontend Mentor - [@siddhinandaniya](https://www.frontendmentor.io/profile/Siddhie)
+
